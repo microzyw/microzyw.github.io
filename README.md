@@ -15,28 +15,28 @@ npm run docs:build
 git config --global user.name "ASxx" 
 git config --global user.email "123456789@qq.com"
 ```
-* （2）进入项目目录
+（2）进入项目目录
 ```
 cd tech-stack
 ```
-* （3）Git初期化
+（3）Git初期化
 ```
 git init
 ```
-* （4）设置远程仓库地址
+（4）设置远程仓库地址
 ```
 git remote add origin https://github.com/microzyw/microzyw.github.io.git
 ```
-* （5）拉取代码
+（5）拉取代码
 ```
 git pull
 ```
-* （6）提交代码
+（6）提交代码
 ```
 git add README.md 
 git commit -m "first commit" 
 ```
-* （7）上传代码
+（7）上传代码
 ```
 git push -u origin master
 ```
@@ -74,7 +74,7 @@ mkdir docs && echo '# Hello VuePress' > docs/README.md
 ```
 npm run docs:dev
 ```
-（8）VuePress 会在 http://localhost:8080 启动一个热重载的开发服务器
-```httml
+（8）VuePress 会启动一个热重载的开发服务器
+```html
 http://localhost:8080
 ```

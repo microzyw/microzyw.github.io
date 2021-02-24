@@ -1,0 +1,23 @@
+{
+  "name": "tech-stack",
+  "version": "1.0.0",
+  "description": "frank zhao's technology stack system",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/microzyw/microzyw.github.io.git"
+  },
+  "author": "frank zhao",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/microzyw/microzyw.github.io/issues"
+  },
+  "homepage": "https://github.com/microzyw/microzyw.github.io#readme",
+  "devDependencies": {
+    "vuepress": "^1.8.2"
+  }
+}
