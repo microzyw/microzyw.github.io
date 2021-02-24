@@ -4,8 +4,8 @@
   "description": "frank zhao's technology stack system",
   "main": "index.js",
   "scripts": {
-    "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs"
+    "docs:dev": "vuepress dev contents",
+    "docs:build": "vuepress build contents"
   },
   "repository": {
     "type": "git",
