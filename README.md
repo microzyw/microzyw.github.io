@@ -1,5 +1,8 @@
 # 相关命令
-* 启动VuePress服务器 npm run docs:dev
+* 启动VuePress服务器 
+```node
+npm run docs:dev
+```
 * 编译VuePress静态文件 npm run docs:build
 # VSCode安装GitLens插件
 * 插件市场搜索安装该插件，用于Git管理
