@@ -1,12 +1,15 @@
-# 相关命令
+## 相关命令
 * 启动VuePress服务器 
-```node
-npm run docs:dev
 ```
-* 编译VuePress静态文件 npm run docs:build
-# VSCode安装GitLens插件
+npm run docs:dev new
+```
+* 编译VuePress静态文件
+```
+npm run docs:build
+```
+## VSCode安装GitLens插件
 * 插件市场搜索安装该插件，用于Git管理
-# 搭建Git环境
+## 搭建Git环境
 （1）Git全局设置
         git config --global user.name "ASxx" 
         git config --global user.email "123456789@qq.com"
@@ -23,7 +26,7 @@ npm run docs:dev
         git commit -m "first commit" 
 （7）上传代码
         git push -u origin master
-# 搭建VuePress环境
+## 搭建VuePress环境
 （1）创建项目目录 
         mkdir tech-stack
 （2）进入该目录 
