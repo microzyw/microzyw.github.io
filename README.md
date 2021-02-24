@@ -1,14 +1,19 @@
 ## 相关命令
 * 启动VuePress服务器 
 ```
-npm run docs:dev new
+npm run docs:dev
 ```
 * 编译VuePress静态文件
 ```
 npm run docs:build
 ```
-## VSCode安装GitLens插件
-* 插件市场搜索安装该插件，用于Git管理
+## Npm插件
+* vuepress-plugin-autobar
+```
+npm install -D boboidream/vuepress-bar
+``` 
+## VSCode插件
+* GitLens
 ## 搭建Git环境
 （1）Git全局设置
 ```
