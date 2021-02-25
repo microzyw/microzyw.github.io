@@ -11,7 +11,7 @@ npm run docs:build
 * vuepress-plugin-autobar
 ```
 npm install -D boboidream/vuepress-bar
-``` 
+```
 ## VSCode插件
 * GitLens
 ## 搭建Git环境
@@ -34,7 +34,7 @@ git remote add origin https://github.com/microzyw/microzyw.github.io.git
 ```
 （5）拉取代码
 ```
-git pull
+git pull https://github.com/microzyw/microzyw.github.io.git master
 ```
 （6）提交代码
 ```
