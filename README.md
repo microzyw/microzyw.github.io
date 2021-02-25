@@ -9,6 +9,7 @@ npm run docs:build
 ```
 ## Npm插件
 * vuepress-plugin-autobar
+* https://github.com/boboidream/vuepress-bar
 ```
 npm install -D boboidream/vuepress-bar
 ```
