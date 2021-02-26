@@ -1,7 +1,8 @@
 module.exports = {
     title: 'Java 技术栈体系',
     themeConfig: {
-        sidebar: 'auto'
+        sidebar: 'auto',
+        searchMaxSuggestions: 10,
     },
     head: [
         ["link", {rel: "icon", href: `/favicon.ico`}],
@@ -12,5 +13,8 @@ module.exports = {
     ],
     plugins: [
         [ 'autobar' ]
-    ]
+    ],
+    markdown: {
+        lineNumbers: true
+    }
 }
